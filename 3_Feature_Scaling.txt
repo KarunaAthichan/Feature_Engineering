@@ -1,0 +1,18 @@
+Why Feature Scaling?
+
+Every feature has Magnitudes & Units.
+
+e.g., Height is 180 cms, and Weight is 79 kgs. Without feature scaling, machine learning model will give higher weightage to height column, nd it affects some of the ML models. 
+
+Scaling required for below models:
+Model uses Gradient Descend and Euclidean distance.
+1) Linear Regression.
+2) K Means Clustering.
+3) K Nearest Neighbour.
+4) Deep Learning Models (ANN, CNN, RNN).
+
+Scaling doesn't needed for below models.
+Model uses Ensemble methods
+1) Decision Tree
+2) Random Forest
+3) Xgboost

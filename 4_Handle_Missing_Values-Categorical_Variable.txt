@@ -1,0 +1,18 @@
+Categorical Variable:
+i) Categorical variables are those values in a dataset that are selected from a group of categories or labels. 
+ii) Categorical represents discrete values. These are also often iii) The discrete values can be text or numeric in nature (or even unstructured data like images).
+
+There are two types:
+1) Nominal - No orders. 
+For e.g., cat, dog, rat, horse
+2) Ordinal - Orders are necessary, based on ranking.
+For e.g., Phd, Masters, Bachelor, Secondary school.
+
+Handle Missing Values in Categorical Variable
+
+1) Delete the rows
+2) Replace with the most frequent values - It leads to Data imbalance.
+3) Apply Classifier algorithm to predict. 
+For e.g., missing value column is dependent and the remaining columns are independent including output column. Use the independent columns and output column to predict the missing values.
+4) Apply Unsupervised ML
+For e.g., use K Nearest Neighbour for predict the missing value.
